@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.email = "josh@optoro.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
@@ -24,12 +24,13 @@ Gem::Specification.new do |s|
     "Gemfile.lock",
     "Guardfile",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
     "lib/graph_viz/mind_map.rb",
     "lib/graph_viz/mind_map/node.rb",
     "lib/ruby-graphviz-mindmap.rb",
+    "ruby-graphviz-mindmap.gemspec",
     "spec/lib/graph_viz/mind_map/node_spec.rb",
     "spec/lib/graph_viz/mind_map_spec.rb",
     "spec/spec_helper.rb"
