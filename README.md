@@ -1,6 +1,6 @@
 # ruby-graphviz-mindmap
 
-So this actually isn't using the ruby GraphViz library right now, but I mean to make it do so. It mostly just generates [dot][http://www.graphviz.org/pdf/dotguide.pdf] format files at the moment. Look at the specs to see how.
+So this actually isn't using the ruby GraphViz library right now, but I mean to make it do so. It mostly just generates [dot][1] format files at the moment. Look at the specs to see how.
 
 ## Contributing to ruby-graphviz-mindmap
  
@@ -17,3 +17,4 @@ So this actually isn't using the ruby GraphViz library right now, but I mean to 
 Copyright (c) 2012 Joshua Szmajda. See LICENSE.txt for
 further details.
 
+[1]: http://www.graphviz.org/pdf/dotguide.pdf
