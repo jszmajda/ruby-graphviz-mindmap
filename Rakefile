@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "ruby-graphviz-mindmap"
   gem.homepage = "http://github.com/joshsz/ruby-graphviz-mindmap"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A library that takes a ruby description of a mind map and outputs a graphviz dot file}
+  gem.description = gem.summary
   gem.email = "josh@optoro.com"
   gem.authors = ["Joshua Szmajda"]
   # dependencies defined in Gemfile
