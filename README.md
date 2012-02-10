@@ -56,3 +56,5 @@ Copyright (c) 2012 Joshua Szmajda. See LICENSE.txt for
 further details.
 
 [1]: http://www.graphviz.org/pdf/dotguide.pdf
+[2]: http://www.graphviz.org/
+[3]: http://www.graphviz.org/pdf/neatoguide.pdf
