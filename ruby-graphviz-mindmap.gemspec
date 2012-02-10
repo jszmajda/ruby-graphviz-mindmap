@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Joshua Szmajda"]
   s.date = "2012-02-10"
-  s.description = "A library that takes a ruby definition of a mind map and outputs a graphviz dot file"
+  s.description = "TODO: longer description of your gem"
   s.email = "josh@optoro.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -39,7 +39,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
-  s.summary = s.description
+  s.summary = "TODO: one-line summary of your gem"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
