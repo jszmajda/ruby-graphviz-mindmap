@@ -1,6 +1,44 @@
 # ruby-graphviz-mindmap
 
-So this actually isn't using the ruby GraphViz library right now, but I mean to make it do so. It mostly just generates [dot][1] format files at the moment. Look at the specs to see how.
+So this actually isn't using the ruby GraphViz library right now, but I mean to make it do so. It mostly just generates [dot][1] format files at the moment.
+
+## Installation
+
+You need [graphviz][2] installed. On ubuntu it's just `sudo apt-get install graphviz`
+
+Then `gem install ruby-graphviz-mindmap`
+
+## Usage
+
+Create a script in which you layout your mind map:
+
+    require 'ruby-graphviz-mindmap'
+    map = GraphViz::MindMap.build "foo", overlap: false
+    map.node 'baz', color: :red, shape: :box do
+      node 'bar' do
+        node 'ha'
+      end 
+
+      node 'two', color: :blue do
+        inherit!
+        node 'three' do
+          node 'Four And'
+          node 'ha', color: :green
+        end 
+      end 
+    end 
+
+    File.open('output.dot', 'wb'){|f| f << map.to_dot }
+
+That will output a dot file ready for processing with a graphviz
+command. I like `neato` for this ([documentation on neato][3]):
+
+    neato -Tjpeg output.dot -o output.jpg
+
+You'll get something that looks like this:
+
+![output.jpg](http://haven.loki.ws/img/omap.jpg)
+
 
 ## Contributing to ruby-graphviz-mindmap
  
