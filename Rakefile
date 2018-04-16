@@ -15,12 +15,12 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "ruby-graphviz-mindmap"
-  gem.homepage = "http://github.com/joshsz/ruby-graphviz-mindmap"
+  gem.homepage = "http://github.com/jszmajda/ruby-graphviz-mindmap"
   gem.license = "MIT"
   gem.summary = %Q{A library that takes a ruby description of a mind map and outputs a graphviz dot file}
   gem.description = gem.summary
-  gem.email = "josh@optoro.com"
-  gem.authors = ["Joshua Szmajda"]
+  gem.email = "jess.szmajda@gmail.com"
+  gem.authors = ["Jessica Szmajda"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

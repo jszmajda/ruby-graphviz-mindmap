@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Joshua Szmajda"]
+  s.authors = ["Jessica Szmajda"]
   s.date = "2012-02-10"
   s.description = "A library that takes a ruby description of a mind map and outputs a graphviz dot file"
-  s.email = "josh@optoro.com"
+  s.email = "jess.szmajda@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
     "spec/lib/graph_viz/mind_map_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = "http://github.com/joshsz/ruby-graphviz-mindmap"
+  s.homepage = "http://github.com/jszmajda/ruby-graphviz-mindmap"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"

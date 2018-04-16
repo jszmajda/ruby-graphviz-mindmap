@@ -52,7 +52,7 @@ You'll get something that looks like this:
 
 ## Copyright
 
-Copyright (c) 2012 Joshua Szmajda. See LICENSE.txt for
+Copyright (c) 2018 Jessica Szmajda. See LICENSE.txt for
 further details.
 
 [1]: http://www.graphviz.org/pdf/dotguide.pdf
