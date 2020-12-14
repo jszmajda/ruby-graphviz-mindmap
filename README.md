@@ -37,7 +37,7 @@ command. I like `neato` for this ([documentation on neato][3]):
 
 You'll get something that looks like this:
 
-![output.jpg](http://haven.loki.ws/img/omap.jpg)
+![output.jpg](https://user-images.githubusercontent.com/418868/60582868-4cc0ca80-9d92-11e9-8251-74bf64d7f809.jpg)
 
 
 ## Contributing to ruby-graphviz-mindmap
